@@ -1,0 +1,10 @@
+<mat-card>
+    <mat-card-content>To Do Home Page
+        <ul>
+            <li class="text" *ngFor="let item of items$ |async">
+
+{{item.title}}
+            </li>
+        </ul>
+    </mat-card-content>
+  </mat-card>
